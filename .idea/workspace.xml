@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usr/themes/ups/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24270073" vertical-offset="0" max-vertical-offset="3002">
+            <state vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="3002">
               <caret line="7" column="107" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,7 +43,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usr/themes/ups/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="934" max-vertical-offset="5358">
+            <state vertical-scroll-proportion="-51.57143" vertical-offset="0" max-vertical-offset="5358">
               <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding>
                 <element signature="e#6#140#0#PHP" expanded="true" />
@@ -65,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/usr/themes/ups/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="1083">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.79679143" vertical-offset="522" max-vertical-offset="1083">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,7 +144,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/usr/themes/ups/footer.php" />
-        <option value="$PROJECT_DIR$/usr/themes/ups/functions.php" />
         <option value="$PROJECT_DIR$/usr/themes/ups/index.php" />
         <option value="$PROJECT_DIR$/usr/themes/ups/archive.css" />
         <option value="$PROJECT_DIR$/usr/themes/ups/post.css" />
@@ -153,6 +152,7 @@
         <option value="$PROJECT_DIR$/usr/themes/ups/archive.php" />
         <option value="$PROJECT_DIR$/usr/themes/ups/index.css" />
         <option value="$PROJECT_DIR$/usr/themes/ups/header.php" />
+        <option value="$PROJECT_DIR$/usr/themes/ups/functions.php" />
       </list>
     </option>
   </component>
@@ -738,14 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usr/themes/ups/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="1083">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usr/themes/ups/archive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1824" max-vertical-offset="2470">
@@ -788,17 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usr/themes/ups/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="934" max-vertical-offset="5358">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#140#0#PHP" expanded="true" />
-            <marker date="1449841697729" expanded="true" signature="2629:2659" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usr/themes/ups/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1064" max-vertical-offset="5434">
@@ -809,7 +790,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/usr/themes/ups/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24270073" vertical-offset="0" max-vertical-offset="3002">
+        <state vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="3002">
           <caret line="7" column="107" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -817,6 +798,25 @@
             <marker date="1449995383728" expanded="true" signature="1848:1911" placeholder="..." />
             <marker date="1449995383728" expanded="true" signature="2926:3037" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usr/themes/ups/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-51.57143" vertical-offset="0" max-vertical-offset="5358">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#140#0#PHP" expanded="true" />
+            <marker date="1449841697729" expanded="true" signature="2629:2659" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usr/themes/ups/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79679143" vertical-offset="522" max-vertical-offset="1083">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

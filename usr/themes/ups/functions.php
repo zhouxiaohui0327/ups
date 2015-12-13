@@ -45,7 +45,7 @@ function thumbnail($content) {
         $imgSrc = $thumbUrl[1][0];
         echo $imgSrc;
     } else {
-        echo 'http://ups.cn/usr/uploads/2015/12/logo.png';
+        echo '/usr/uploads/2015/12/logo.png';
     }
 }
 
