@@ -1,0 +1,124 @@
+.list_wrap{
+    padding: 10px 10px;
+    min-height:600px;
+    margin-left: 10px;
+}
+.list_wrap .list_one{
+    padding: 10px 0;
+    border-bottom: 1px dotted lightgrey;
+}
+.list_wrap .list_one .title{
+    margin-bottom: 10px;
+}
+.list_wrap .list_one .title span{
+    font-size: 12px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.list_wrap .list_one .title a{
+    color: #333;
+    font-size: 12px;
+}
+.list_wrap .list_one .content{
+    text-indent:30px;
+    height: 48px;
+}
+.list_img{
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+    -webkit-box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+}
+.list_img img{
+    width: 204px;
+    height: 204px;
+}
+.case_img{
+    width: 335px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin:10px 5px 5px 10px;
+}
+.case_img h4{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.case_text{
+    width: 172px;
+    text-indent: 20px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.sec_list{
+    position: relative;
+}
+.sec_list ul{
+    position: absolute;
+    right: -152px;
+    border: 1px solid #058dbf;
+    top:0;
+    z-index:1999;
+    display: none;
+}
+.sec_list:hover  ul{
+    display: block;
+}
+.sec_list_title{
+    background: url("./images/pro_submenu_point.gif") no-repeat right center;
+}
+.sec_list:hover .sec_list_title{
+    background:none;
+    background-color: #058dbf;
+    color:#fff;
+
+
+}
+.sec_list ul li{
+    background-color: #fff;
+    width: 150px;
+}
+.sec_list ul li a{
+    background: url("./images/list_point.gif") no-repeat 15px 21px;
+    padding-left: 10px;
+}
+.sec_list ul li a:hover{
+    background:none;
+}
+@media screen and (width:414px){
+    .case_img img{width: 160px;}
+}
+@media screen and (max-width: 414px){
+    .list_img{margin-left: 90px;}
+    .case_img{width: 385px;}
+
+}
+@media screen and (max-width: 375px){
+    .list_img{margin-left: 85px;}
+    .case_img{width: 335px;}
+}
+@media screen and (max-width: 359px){
+    .list_img{margin-left: 50px;}
+    .case_img{width: 305px;margin: 0;margin-bottom: 10px}
+    .case_text{width: 140px}
+}
+
+
+.btn111{
+    position: fixed;
+    bottom: 20px;
+    left:0;
+    z-index: 1999;
+    opacity: 0.75;
+    display: none;
+}
+@media screen and (max-width:767px){
+    .details_content{background-color: #fff;}
+    #d-mask{position: fixed;top: 100px;left: -215px;display:block;z-index:1999;opacity: 0.75}
+    .btn111{display: block}
+    .details_content ul li a{
+        line-height: 30px;
+    }
+}
+
