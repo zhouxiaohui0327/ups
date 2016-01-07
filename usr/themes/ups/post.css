@@ -2,7 +2,7 @@
     text-indent: 20px;
 }
 .list_nav .title a{
-    color: #058dbf;
+    color: #26508b;
     line-height: 30px;
 }
 .list_nav .title .here{
@@ -29,7 +29,7 @@
     text-indent: 15px;
 }
 .details_content ul li a:hover{
-    background-color: #058dbf;
+    background-color: #26508b;
     color: #fff;
 }
 .details_content .contact_us1{

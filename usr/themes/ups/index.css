@@ -35,7 +35,7 @@ header{
     width: 20%;
 }
 .navbar-toggle{
-    background-color:#058dbf;
+    background-color:#26508b;
 }
 .navbar-toggle .icon-bar+.icon-bar{
     background-color: #cccccc;
@@ -51,7 +51,7 @@ header{
     /*border-top-left-radius: 6px;*/
     /*border-top-right-radius: 6px;*/
     box-shadow: 0 2px 2px grey;
-    background-color: #069dd4;
+    background-color: #26508b;
 }
 .nav1 .nav_bar .title_box{
     text-align: center;
@@ -59,7 +59,7 @@ header{
     width: 125px;
 }
 .nav1 .nav_bar .title_box a:hover , .nav1 .nav_bar .title_box a:focus{
-    background-color:#63c6ef;
+    background-color: #32688b;
     color:#fff;
 }
 .nav1 .nav_bar .title_box:hover .inner_list{
@@ -82,11 +82,11 @@ header{
     display: none;
 }
 .inner_list li{
-    background-color: #069dd4;
+    background-color: #26508b;
     border-bottom: 1px solid #fff;;
 }
 .inner_list li:hover{
-    background-color:#058dbf ;
+    background-color:#32688b ;
 }
 .inner_list li a{
     line-height: 30px;
@@ -94,7 +94,7 @@ header{
     color: #fff;
 }
 .inner_list li a:hover {
-    background-color:#058dbf !important;
+    background-color:#32688b !important;
 }
 @media screen and (max-width:767px){
     .logo img{
@@ -122,15 +122,15 @@ header{
 }
 .hover{
     background-color: #fff;
-    border-left: 2px solid #058dbf ;
+    border-left: 2px solid#26508b ;
 }
 .details_content ul a.hover1{
-    background-color: #058dbf;
+    background-color:#26508b;
     color: #fff;
 }
 .content_box .list_nav ul li a{
     line-height: 30px;
-    color: #058dbf;
+    color: #26508b;
 }
 
 .list_content{
@@ -202,7 +202,7 @@ header{
     padding: 2px;
 }
 .carousel_text{
-    color: #058dbf;
+    color:#26508b;
 }
 .prev {
     display: block;
@@ -278,4 +278,6 @@ footer a{
 @media screen and (max-width:776px) {
     .company_pic img{width:290px;}
     .details_content .contact_us1{height:180px;}
+    .row{margin-left: 0;margin-right: 0;}
+
 }
