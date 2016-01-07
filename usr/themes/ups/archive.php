@@ -192,7 +192,7 @@
                                    <div class="list_img">
                                        <a href="<?php $categoryPosts->permalink(); ?>"><img src="<?php echo thumbnail($categoryPosts->content); ?>"></a>
                                        <div class="list_text" style="text-align: center">
-                                           <a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
+                                           <a style="display:block;width:100%;  white-space: nowrap;text-overflow: ellipsis;overflow: hidden;" itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
                                        </div>
                                    </div>
                                <?php endwhile; ?>

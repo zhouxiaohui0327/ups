@@ -24,6 +24,7 @@
     height: 48px;
 }
 .list_img{
+    width: 204px;
     display: inline-block;
     position: relative;
     margin: 15px;
