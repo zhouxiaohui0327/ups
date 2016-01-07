@@ -50,6 +50,9 @@
     letter-spacing: 1px;
 
 }
+.post_content p:first-child{
+    display:none;
+}
 .post_content img{
     width: 100%;
     margin: 20px 0;
