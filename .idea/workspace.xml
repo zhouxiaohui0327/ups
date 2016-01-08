@@ -25,16 +25,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/usr/themes/ups/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.464286" vertical-offset="863" max-vertical-offset="3002">
-              <caret line="52" column="112" selection-start-line="52" selection-start-column="112" selection-end-line="52" selection-end-column="112" />
+            <state vertical-scroll-proportion="0.86003685" vertical-offset="692" max-vertical-offset="3002">
+              <caret line="61" column="73" selection-start-line="61" selection-start-column="73" selection-end-line="61" selection-end-column="73" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1452224294086" expanded="true" signature="1848:1911" placeholder="..." />
-                <marker date="1452224294086" expanded="true" signature="2926:3037" placeholder="..." />
+                <marker date="1452235949394" expanded="true" signature="1848:1911" placeholder="..." />
+                <marker date="1452235949394" expanded="true" signature="2926:3037" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -43,7 +43,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usr/themes/ups/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1653" max-vertical-offset="5358">
+            <state vertical-scroll-proportion="7.464286" vertical-offset="1653" max-vertical-offset="5358">
               <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding>
                 <element signature="e#6#140#0#PHP" expanded="true" />
@@ -101,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usr/themes/ups/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62274367" vertical-offset="2011" max-vertical-offset="5529">
-              <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+            <state vertical-scroll-proportion="-6.4666667" vertical-offset="1402" max-vertical-offset="5472">
+              <caret line="84" column="29" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -148,10 +148,10 @@
         <option value="$PROJECT_DIR$/usr/themes/ups/functions.php" />
         <option value="$PROJECT_DIR$/usr/themes/ups/archive.css" />
         <option value="$PROJECT_DIR$/usr/themes/ups/post.css" />
-        <option value="$PROJECT_DIR$/usr/themes/ups/header.php" />
         <option value="$PROJECT_DIR$/usr/themes/ups/post.php" />
         <option value="$PROJECT_DIR$/usr/themes/ups/archive.php" />
         <option value="$PROJECT_DIR$/usr/themes/ups/index.css" />
+        <option value="$PROJECT_DIR$/usr/themes/ups/header.php" />
       </list>
     </option>
   </component>
@@ -460,8 +460,8 @@
           <folding>
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1452224294086" expanded="true" signature="1848:1911" placeholder="..." />
-            <marker date="1452224294086" expanded="true" signature="2926:3037" placeholder="..." />
+            <marker date="1452235949394" expanded="true" signature="1848:1911" placeholder="..." />
+            <marker date="1452235949394" expanded="true" signature="2926:3037" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -558,8 +558,8 @@
           <folding>
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1452224294086" expanded="true" signature="1848:1911" placeholder="..." />
-            <marker date="1452224294086" expanded="true" signature="2926:3037" placeholder="..." />
+            <marker date="1452235949394" expanded="true" signature="1848:1911" placeholder="..." />
+            <marker date="1452235949394" expanded="true" signature="2926:3037" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -640,8 +640,8 @@
           <folding>
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1452224294086" expanded="true" signature="1848:1911" placeholder="..." />
-            <marker date="1452224294086" expanded="true" signature="2926:3037" placeholder="..." />
+            <marker date="1452235949394" expanded="true" signature="1848:1911" placeholder="..." />
+            <marker date="1452235949394" expanded="true" signature="2926:3037" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -770,17 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usr/themes/ups/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1653" max-vertical-offset="5358">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#140#0#PHP" expanded="true" />
-            <marker date="1449841697729" expanded="true" signature="2629:2659" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usr/themes/ups/archive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.766667" vertical-offset="291" max-vertical-offset="2489">
@@ -794,19 +783,6 @@
         <state vertical-scroll-proportion="-7.4" vertical-offset="614" max-vertical-offset="1387">
           <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usr/themes/ups/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.464286" vertical-offset="863" max-vertical-offset="3002">
-          <caret line="52" column="112" selection-start-line="52" selection-start-column="112" selection-end-line="52" selection-end-column="112" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1452224294086" expanded="true" signature="1848:1911" placeholder="..." />
-            <marker date="1452224294086" expanded="true" signature="2926:3037" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,9 +823,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/usr/themes/ups/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62274367" vertical-offset="2011" max-vertical-offset="5529">
-          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+        <state vertical-scroll-proportion="-6.4666667" vertical-offset="1402" max-vertical-offset="5472">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usr/themes/ups/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.464286" vertical-offset="1653" max-vertical-offset="5358">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#140#0#PHP" expanded="true" />
+            <marker date="1449841697729" expanded="true" signature="2629:2659" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usr/themes/ups/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86003685" vertical-offset="692" max-vertical-offset="3002">
+          <caret line="61" column="73" selection-start-line="61" selection-start-column="73" selection-end-line="61" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1452235949394" expanded="true" signature="1848:1911" placeholder="..." />
+            <marker date="1452235949394" expanded="true" signature="2926:3037" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
