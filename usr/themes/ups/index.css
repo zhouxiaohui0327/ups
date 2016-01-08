@@ -144,11 +144,11 @@ header{
     text-overflow: ellipsis;
 }
 .news ul li a{
-    font-size: 12px;
+    font-size: 13px;
     color:#333;
 }
 .news ul li a:hover{
-    color:#058dbf
+    color:#26508b
 }
 .time p{
     font-size: 12px;
