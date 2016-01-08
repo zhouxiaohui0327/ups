@@ -60,7 +60,7 @@
                             <li><a href="/index.php/category/trade/">行业新闻</a></li>
                             <li><a href="/index.php/category/company/">公司新闻</a></li>
                             <li><a class="hover1" href="/index.php/category/market/">市场动态</a></li>
-                            
+
                         <?php elseif(topcategory($this->category) == "product"||strstr($url,"yg")||strstr($url,"xdc")||strstr($url,"gnb")||strstr($url,"sysx")||strstr($url,"tq")||strstr($url,"dls")||strstr($url,"peak")||strstr($url,"mlrl")||strstr($url,"xmz")||strstr($url,"klrd")||strstr($url,"yd")||strstr($url,"st")||strstr($url,"fnks")||strstr($url,"STUIZ")||strstr($url,"aex")||strstr($url,"mdbt")||strstr($url,"bc")||strstr($url,"qtbl")):?>
                             <li class="sec_list">
                                 <a class="sec_list_title" href="/index.php/category/xdc/">蓄电池</a>
