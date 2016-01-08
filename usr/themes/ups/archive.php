@@ -2,13 +2,12 @@
 <?php $this->need('header.php'); ?>
 <?php $url =$_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF'];
 
-$url_arr = explode('/',$url);
-$cate = $url_arr[2];
-echo $cate;
-echo $url;
-print_r($url_arr);
-$mid_arr = array('product'=>'3','xdc'=>'11', 'EPS'=>'12','xcp'=>'13','UPS'=>'14','pk'=>'15','jf'=>'16','fdj'=>'17','lgl'=>'18','pkxdc'=>'19','CITEC'=>'20',);
-
+//$url_arr = explode('/',$url);
+//$cate = $url_arr[1];
+//echo $cate.'<br>';
+//echo $url.'<br>';
+//print_r($url_arr);
+//$mid_arr = array('product'=>'3','xdc'=>'11', 'EPS'=>'12','xcp'=>'13','UPS'=>'14','pk'=>'15','jf'=>'16','fdj'=>'17','lgl'=>'18','pkxdc'=>'19','CITEC'=>'20',);
 
 ?>
 
@@ -190,7 +189,7 @@ $mid_arr = array('product'=>'3','xdc'=>'11', 'EPS'=>'12','xcp'=>'13','UPS'=>'14'
 
                         <?php elseif(topcategory($this->category)== "product"):?>
                             <?php if ($this->have()): ?>
-                                <?php $this->widget('Widget_Archive@index', 'pageSize=9&type=category', 'mid='.$mid_arr[$cate])->to($categoryPosts); ?>
+                                <?php $this->widget('Widget_Archive@index', 'pageSize=9&type=category', 'mid='.$this->_pageRow['mid'])->to($categoryPosts); ?>
                                 <?php while($categoryPosts->next()&&$this->next()): ?>
                                     <div class="case_img col-xs-12">
                                         <h4><a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h4>
