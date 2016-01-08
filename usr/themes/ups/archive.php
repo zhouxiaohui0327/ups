@@ -1,6 +1,6 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php $this->need('header.php'); ?>
-<?php $url = $_SERVER['PHP_SELF'];
+<?php $url =$_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF'];
 
 $url_arr = explode('/',$url);
 $cate = $url_arr[2];
