@@ -214,9 +214,10 @@
                                 </article>
                            <?php endif;?>
                         <?php endif;?>
-                        <div style="width: 100%; margin-top:30px">
-                            <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
-                        </div>
+
+                    </div>
+                    <div style="width: 100%; margin-top:30px;margin-bottom:20px;">
+                        <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
                     </div>
                 </div>
             </div>
