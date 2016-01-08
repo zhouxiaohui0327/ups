@@ -46,16 +46,21 @@
                                 'author'    =>  _t('%s 发布的文章')
                             ), '', ''); ?></a></p>
                 </div>
-                <div class="details_content"  style="padding:0px;">
+                <div class="details_content"  style="padding:0;">
                     <ul class="list-unstyled">
-                        <?php if(topcategory($this->category) == "news"):?>
-                            <li><a href="/index.php/category/trade/">行业新闻</a></li>
+                        <?php if(strstr($url,"trade")):?>
+                            <li><a class="hover1" href="/index.php/category/trade/">行业新闻</a></li>
                             <li><a href="/index.php/category/company/">公司新闻</a></li>
                             <li><a href="/index.php/category/market/">市场动态</a></li>
-<!--                        --><?php //elseif($this->category =="industry"):?>
-<!--                            <li><a class="hover1" href="/index.php/category/industry/">行业新闻</a></li>-->
-<!--                            <li><a href="/index.php/category/company/">公司新闻</a></li>-->
-<!--                            <li><a href="/index.php/category/market/">市场动态</a></li>-->
+                        <?php elseif(strstr($url,"company")):?>
+                            <li><a href="/index.php/category/trade/">行业新闻</a></li>
+                            <li><a class="hover1" href="/index.php/category/company/">公司新闻</a></li>
+                            <li><a href="/index.php/category/market/">市场动态</a></li>
+                        <?php elseif(strstr($url,"market")):?>
+                            <li><a href="/index.php/category/trade/">行业新闻</a></li>
+                            <li><a href="/index.php/category/company/">公司新闻</a></li>
+                            <li><a class="hover1" href="/index.php/category/market/">市场动态</a></li>
+
 
                         <?php elseif(topcategory($this->category) == "product"||strstr($url,"yg")||strstr($url,"xdc")||strstr($url,"gnb")||strstr($url,"sysx")||strstr($url,"tq")||strstr($url,"dls")||strstr($url,"peak")||strstr($url,"mlrl")||strstr($url,"xmz")||strstr($url,"klrd")||strstr($url,"yd")||strstr($url,"st")||strstr($url,"fnks")||strstr($url,"STUIZ")||strstr($url,"aex")||strstr($url,"mdbt")||strstr($url,"bc")||strstr($url,"qtbl")):?>
                             <li class="sec_list">
@@ -139,6 +144,7 @@
                         <?php elseif($this->category == "case"):?>
                             <li><a href="">案列展示</a></li>
                         <?php endif;?>
+
                     </ul>
                 </div>
             </div>

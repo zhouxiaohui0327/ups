@@ -121,7 +121,7 @@
                 <div class="details_content">
                     <div class="post_head">
                         <h3 class="post_title"><?php $this->title() ?></h3>
-                        <p>时间：<time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y-m-g'); ?></time></p>
+                        <p style="text-align: center;color:#26508b">时间：<time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y-m-g'); ?></time></p>
                     </div>
                     <div class="post_content">
                         <?php $this->content(); ?>
