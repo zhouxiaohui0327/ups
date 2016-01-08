@@ -48,10 +48,14 @@
                 </div>
                 <div class="details_content"  style="padding:0;">
                     <ul class="list-unstyled">
-                        <?php if(strstr($url,"trade")):?>
-                            <li><a class="hover1" href="/index.php/category/trade/">行业新闻</a></li>
+                        <?php if(strstr($url,"news")):?>
+                            <li><a href="/index.php/category/trade/">行业新闻</a></li>
                             <li><a href="/index.php/category/company/">公司新闻</a></li>
                             <li><a href="/index.php/category/market/">市场动态</a></li>
+                        <?php elseif(strstr($url,"trade")):?>
+                                <li><a class="hover1" href="/index.php/category/trade/">行业新闻</a></li>
+                                <li><a href="/index.php/category/company/">公司新闻</a></li>
+                                <li><a href="/index.php/category/market/">市场动态</a></li>
                         <?php elseif(strstr($url,"company")):?>
                             <li><a href="/index.php/category/trade/">行业新闻</a></li>
                             <li><a class="hover1" href="/index.php/category/company/">公司新闻</a></li>
