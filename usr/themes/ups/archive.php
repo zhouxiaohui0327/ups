@@ -1,15 +1,6 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php $this->need('header.php'); ?>
-<?php $url =$_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF'];
-
-//$url_arr = explode('/',$url);
-//$cate = $url_arr[1];
-//echo $cate.'<br>';
-//echo $url.'<br>';
-//print_r($url_arr);
-//$mid_arr = array('product'=>'3','xdc'=>'11', 'EPS'=>'12','xcp'=>'13','UPS'=>'14','pk'=>'15','jf'=>'16','fdj'=>'17','lgl'=>'18','pkxdc'=>'19','CITEC'=>'20',);
-
-?>
+<?php $url =$_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF'];?>
 
 <style>
     .prev , .next{
@@ -57,28 +48,25 @@
                 </div>
                 <div class="details_content"  style="padding:0;">
                     <ul class="list-unstyled">
-<!--                        --><?php //if(strstr($url,"news")):?>
-<!--                            <li><a href="/index.php/category/trade/">行业新闻</a></li>-->
-<!--                            <li><a href="/index.php/category/company/">公司新闻</a></li>-->
-<!--                            <li><a href="/index.php/category/market/">市场动态</a></li>-->
-<!--                        --><?php //elseif(strstr($url,"trade")):?>
-<!--                                <li><a class="hover1" href="/index.php/category/trade/">行业新闻</a></li>-->
-<!--                                <li><a href="/index.php/category/company/">公司新闻</a></li>-->
-<!--                                <li><a href="/index.php/category/market/">市场动态</a></li>-->
-<!--                        --><?php //elseif(strstr($url,"company")):?>
-<!--                            <li><a href="/index.php/category/trade/">行业新闻</a></li>-->
-<!--                            <li><a class="hover1" href="/index.php/category/company/">公司新闻</a></li>-->
-<!--                            <li><a href="/index.php/category/market/">市场动态</a></li>-->
-<!--                        --><?php //elseif(strstr($url,"market")):?>
-<!--                            <li><a href="/index.php/category/trade/">行业新闻</a></li>-->
-<!--                            <li><a href="/index.php/category/company/">公司新闻</a></li>-->
-<!--                            <li><a class="hover1" href="/index.php/category/market/">市场动态</a></li>-->
-                        <?php if(topcategory($this->category)  =="news"):?>
+                        <?php if($this->_pageRow['slug']=="news"):?>
                             <li><a href="/index.php/category/trade/">行业新闻</a></li>
                             <li><a href="/index.php/category/company/">公司新闻</a></li>
                             <li><a href="/index.php/category/market/">市场动态</a></li>
+                        <?php elseif($this->_pageRow['slug']=="trade"):?>
+                                <li><a class="hover1" href="/index.php/category/trade/">行业新闻</a></li>
+                                <li><a href="/index.php/category/company/">公司新闻</a></li>
+                                <li><a href="/index.php/category/market/">市场动态</a></li>
+                        <?php elseif($this->_pageRow['slug']=="company"):?>
+                            <li><a href="/index.php/category/trade/">行业新闻</a></li>
+                            <li><a class="hover1" href="/index.php/category/company/">公司新闻</a></li>
+                            <li><a href="/index.php/category/market/">市场动态</a></li>
+                        <?php elseif($this->_pageRow['slug']=="market"):?>
+                            <li><a href="/index.php/category/trade/">行业新闻</a></li>
+                            <li><a href="/index.php/category/company/">公司新闻</a></li>
+                            <li><a class="hover1" href="/index.php/category/market/">市场动态</a></li>
 
-                        <?php elseif(topcategory($this->category) == "product"||strstr($url,"yg")||strstr($url,"xdc")||strstr($url,"gnb")||strstr($url,"sysx")||strstr($url,"tq")||strstr($url,"dls")||strstr($url,"peak")||strstr($url,"mlrl")||strstr($url,"xmz")||strstr($url,"klrd")||strstr($url,"yd")||strstr($url,"st")||strstr($url,"fnks")||strstr($url,"STUIZ")||strstr($url,"aex")||strstr($url,"mdbt")||strstr($url,"bc")||strstr($url,"qtbl")):?>
+                        <?php elseif($this->_pageRow['slug'] == "product"||$this->_pageRow['slug']=="xdc"||$this->_pageRow['slug']=="EPS"||$this->_pageRow['slug']=="EPS"||$this->_pageRow['slug']=="xcp"||$this->_pageRow['slug']=="UPS"||$this->_pageRow['slug']=="jf"||$this->_pageRow['slug']=="fdj"||$this->_pageRow['slug']=="lgl"||$this->_pageRow['slug']=="pkxdc"||$this->_pageRow['slug']=="CITEC"||$this->_pageRow['slug']=="yg"||$this->_pageRow['slug']=="gnb"
+                            ||$this->_pageRow['slug']=="sysx"||$this->_pageRow['slug']=="tq"||$this->_pageRow['slug']=="dls"||$this->_pageRow['slug']=="peak"||$this->_pageRow['slug']=="mlrl"||$this->_pageRow['slug']=="xmz"||$this->_pageRow['slug']=="klrd"||$this->_pageRow['slug']=="yd"||$this->_pageRow['slug']=="st"||$this->_pageRow['slug']=="fnks"||$this->_pageRow['slug']=="STUIZ"||$this->_pageRow['slug']=="aex"||$this->_pageRow['slug']=="mdbt"||$this->_pageRow['slug']=="bc"||$this->_pageRow['slug']=="qtbl"):?>
                             <li class="sec_list">
                                 <a class="sec_list_title" href="/index.php/category/xdc/">蓄电池</a>
                                 <ul class="list-unstyled">
@@ -170,6 +158,9 @@
             <div class="border_box">
                 <div class="list_nav">
                     <p class="title"><span class="here">您的位置：</span><span class="here_nav"><a href="<?php $this->options->siteUrl(); ?>"><?php _e('首页');?></a> > <?php echo $this->category(" > ");?></span></p>
+
+
+                    <?php echo $this->_pageRow['slug'];?>
                 </div>
                 <div class="details_content">
                     <div class="list_wrap clearfix">
@@ -198,7 +189,6 @@
                                             <?php $this->excerpt(50,'...'); ?>
                                         </div>
                                     </div>
-
                                 <?php endwhile; ?>
                             <?php else: ?>
                                     <div class="case_text pull-left" >
