@@ -3,9 +3,9 @@
 <?php $url = $_SERVER['PHP_SELF'];
 
 $url_arr = explode('/',$url);
-$cate = $url_arr[3];
+$cate = $url_arr[2];
 
-$mid_arr = array('xdc'=>'11', 'EPS'=>'12','xcp'=>'13','UPS'=>'14','pk'=>'15','jf'=>'16','fdj'=>'17','lgl'=>'18','pkxdc'=>'19','CITEC'=>'20',);
+$mid_arr = array('product'=>'3','xdc'=>'11', 'EPS'=>'12','xcp'=>'13','UPS'=>'14','pk'=>'15','jf'=>'16','fdj'=>'17','lgl'=>'18','pkxdc'=>'19','CITEC'=>'20',);
 
 
 ?>
