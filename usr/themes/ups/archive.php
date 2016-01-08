@@ -150,7 +150,6 @@
             </div>
         </div>
 
-
         <div class="content_box col-md-9 col-xs-12 pull-right" style="padding-left: 0">
             <div class="border_box">
                 <div class="list_nav">
