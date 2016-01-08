@@ -157,10 +157,17 @@
         <div class="content_box col-md-9 col-xs-12 pull-right" style="padding-left: 0">
             <div class="border_box">
                 <div class="list_nav">
+
+                    <?php if($this->_pageRow['slug']=="product"):?>
+                    <p class="title"><span class="here">您的位置：</span><span class="here_nav"><a href="<?php $this->options->siteUrl(); ?>"><?php _e('首页');?></a> > <?php echo "产品展示";?></span></p>
+                    <?php elseif($this->_pageRow['slug']=="news"):?>
+                    <p class="title"><span class="here">您的位置：</span><span class="here_nav"><a href="<?php $this->options->siteUrl(); ?>"><?php _e('首页');?></a> > <?php echo "新闻动态";?></span></p>
+                     <?php else:?>
                     <p class="title"><span class="here">您的位置：</span><span class="here_nav"><a href="<?php $this->options->siteUrl(); ?>"><?php _e('首页');?></a> > <?php echo $this->category(" > ");?></span></p>
+                    <?php endif;?>
 
 
-                    <?php echo $this->_pageRow['slug'];?>
+<!--                    --><?php //echo $this->_pageRow['slug'];?>
                 </div>
                 <div class="details_content">
                     <div class="list_wrap clearfix">
