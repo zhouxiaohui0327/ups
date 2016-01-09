@@ -50,7 +50,7 @@
         </button>
         <div class="logo">
             <a href="<?php $this->options->siteUrl(); ?>"><img src="<?php $this->options->themeUrl(); ?>images/logo.png" alt=""/></a>
-            <p class="pull-right hidden-xs hidden-md" style="line-height: 90px">客服热线：<span style="color: #26508b">0571</span></p>
+            <p class="pull-right hidden-xs hidden-md" style="line-height: 90px">客服热线：<span style="color: #26508b">0571-85358995</span></p>
         </div>
         <div id="bs-navbar" class="nav1 collapse navbar-collapse col-xs-12">
             <ul class="nav_bar nav navbar-nav ">

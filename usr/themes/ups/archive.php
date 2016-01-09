@@ -65,7 +65,7 @@
                             <li><a href="/index.php/category/company/">公司新闻</a></li>
                             <li><a class="hover1" href="/index.php/category/market/">市场动态</a></li>
 
-                        <?php elseif($this->_pageRow['slug'] == "product"||$this->_pageRow['slug']=="xdc"||$this->_pageRow['slug']=="EPS"||$this->_pageRow['slug']=="EPS"||$this->_pageRow['slug']=="xcp"||$this->_pageRow['slug']=="UPS"||$this->_pageRow['slug']=="jf"||$this->_pageRow['slug']=="fdj"||$this->_pageRow['slug']=="lgl"||$this->_pageRow['slug']=="pkxdc"||$this->_pageRow['slug']=="CITEC"||$this->_pageRow['slug']=="yg"||$this->_pageRow['slug']=="gnb"||$this->_pageRow['slug']=="PK"
+                        <?php elseif($this->_pageRow['slug'] == "product"||$this->_pageRow['slug']=="xdc"||$this->_pageRow['slug']=="EPS"||$this->_pageRow['slug']=="EPS"||$this->_pageRow['slug']=="xcp"||$this->_pageRow['slug']=="UPS"||$this->_pageRow['slug']=="jf"||$this->_pageRow['slug']=="fdj"||$this->_pageRow['slug']=="lgl"||$this->_pageRow['slug']=="pkxdc"||$this->_pageRow['slug']=="CITEC"||$this->_pageRow['slug']=="yg"||$this->_pageRow['slug']=="gnb"||$this->_pageRow['slug']=="pk"
                             ||$this->_pageRow['slug']=="sysx"||$this->_pageRow['slug']=="tq"||$this->_pageRow['slug']=="dls"||$this->_pageRow['slug']=="peak"||$this->_pageRow['slug']=="mlrl"||$this->_pageRow['slug']=="xmz"||$this->_pageRow['slug']=="klrd"||$this->_pageRow['slug']=="yd"||$this->_pageRow['slug']=="st"||$this->_pageRow['slug']=="fnks"||$this->_pageRow['slug']=="STUIZ"||$this->_pageRow['slug']=="aex"||$this->_pageRow['slug']=="mdbt"||$this->_pageRow['slug']=="bc"||$this->_pageRow['slug']=="qtbl"):?>
                             <li class="sec_list">
                                 <a class="sec_list_title" href="/index.php/category/xdc/">蓄电池</a>
@@ -233,15 +233,7 @@
                 <div class="list_nav">
                     <p class="title"><a href="/index.php/contact.html">联系方式</a></p>
                 </div>
-                <div class="details_content" style="padding:10px;">
-                    <img class="contact_us1" src="<?php $this->options->themeUrl(); ?>images/contact_us1.jpg" alt=""/>
-                    <h5>杭州迎易峰科技有限公司</h5>
-                    <p>地址：杭州市西湖区古墩路656号紫金港商务大厦615</p>
-                    <p>传真：0571-89731190</p>
-                    <p>电话：0571-89731191/89731192</p>
-                    <p>手 机：18605889880</p>
-                    <p>邮 箱：peakpower@peakups.com</p>
-                </div>
+                <?php include"company_info.php" ;?>
             </div>
         </div>
     </div>

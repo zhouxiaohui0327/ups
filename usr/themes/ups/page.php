@@ -37,8 +37,8 @@
                         <?php elseif($this->slug == "recruit"):?>
                             <li><a class="hover1" href=""><?php $this->title();?></a></li>
                         <?php elseif($this->slug == "contact"):?>
-                            <li><a href="">联系方式</a></li>
-                            <li><a href="">客户留言</a></li>
+                            <li><a href="/index.php/contact.html">联系方式</a></li>
+<!--                            <li><a href="">客户留言</a></li>-->
                         <?php endif;?>
                     </ul>
                 </div>
@@ -67,15 +67,7 @@
                 <div class="list_nav">
                     <p class="title"><a href="/index.php/contact.html">联系方式</a></p>
                 </div>
-                <div class="details_content"  style="padding:10px;">
-                    <img class="contact_us1" src="<?php $this->options->themeUrl(); ?>images/contact_us1.jpg" alt=""/>
-                    <h5>杭州迎易峰科技有限公司</h5>
-                    <p>地址：杭州市西湖区古墩路656号紫金港商务大厦615</p>
-                    <p>传真：0571-89731190</p>
-                    <p>电话：0571-89731191/89731192</p>
-                    <p>手 机：18605889880</p>
-                    <p>邮 箱：peakpower@peakups.com</p>
-                </div>
+                <?php include"company_info.php" ;?>
             </div>
         </div>
     </div>

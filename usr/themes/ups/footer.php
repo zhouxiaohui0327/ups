@@ -5,10 +5,10 @@
 </div><!-- end #body -->
 
 <footer>
-    <p><a href="">关于我们</a>|<a href="">维修服务</a>|<a href="">企业邮箱</a></p>
-    <p>版权所有 PEAKPOWER PEAK POWER 杭州迎易峰科技有限公司</p>
-    <p>地 址：杭州市西湖区古墩路656号紫金港商务大厦615 电 话：0571-89731191/89731192</p>
-    <p>传 真：0571-89731190 手 机：18605889880 邮 箱：yingyfups@163.com</p>
+    <p><a href="/index.php/contact.html">关于我们</a>|<a href="/index.php/server.html">维修服务</a>|<a href="">企业邮箱</a></p>
+    <p>版权所有 PEAKPOWER PEAK POWER 杭州君轩科技有限公司</p>
+    <p>地 址：杭州市西湖区振华路196号裕华大厦B座1712室 电 话：0571-85358995</p>
+    <p>传 真：0571-88305660  邮 箱：xxx@xxx.com</p>
 </footer><!-- end #footer -->
 
 <?php $this->footer(); ?>

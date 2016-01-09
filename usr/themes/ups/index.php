@@ -84,9 +84,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                 </div>
                 <div class="list_content">
                     <img style="width:100%;margin-bottom: 5px" src="<?php $this->options->themeUrl(); ?>images/lxwm.jpg" alt=""/>
-                    <p>地 址：杭州市西湖区古墩路656号紫金港商务大厦615</p>
-                    <p>电 话：0571-89731191 0571-89731192</p>
-                    <p>传 真：0571-89731190</p>
+                    <p>地 址：杭州市西湖区振华路196号裕华大厦B座1712室</p>
+                    <p>电 话：0571-85358995</p>
+                    <p>传 真：0571-88305660</p>
                 </div>
             </div>
         </div>
@@ -122,87 +122,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                 </div>
             </div>
         </div>
-        <!--        <div class="content_box col-md-12">-->
-        <!--            <div class="border_box">-->
-        <!--                <div class="list_nav">-->
-        <!--                    <ul class="list-inline list-styled">-->
-        <!--                        <li><a href="">产品展示</a></li>-->
-        <!--                    </ul>-->
-        <!--                </div>-->
-        <!--                <div class="product_wrap row">-->
-        <!--                    <div class="left_nav pull-left">-->
-        <!--                        <ul class="product list-unstyled">-->
-        <!--                            <li class="cur">蓄电池</li>-->
-        <!--                            <li class="cur">EPS应急电源</li>-->
-        <!--                            <li class="cur">新产品PEAK POWER</li>-->
-        <!--                            <li class="cur">UPS不间断电源</li>-->
-        <!--                            <li class="cur">佩科UPS</li>-->
-        <!--                            <li class="cur">机房精密空调</li>-->
-        <!--                            <li class="cur">发电机</li>-->
-        <!--                            <li class="cur">罗格朗UPS</li>-->
-        <!--                            <li class="cur">佩科蓄电池</li>-->
-        <!--                            <li class="cur">CITEC精密空调</li>-->
-        <!--                        </ul>-->
-        <!--                    </div>-->
-        <!--                    <div class="right_content pull-left">-->
-        <!--                        <div class="product_img clearfix" style="display: block">-->
-        <!--                            <div class="product_one pull-left">-->
-        <!--                                <a href=""><img src="./images/1234.jpg" alt=""/></a>-->
-        <!--                                <p><a href="">text</p></a>-->
-        <!--                            </div>-->
-        <!--                            <div class="product_one pull-left">-->
-        <!--                                <a href=""><img src="./images/1234.jpg" alt=""/></a>-->
-        <!--                                <p><a href="">text</p></a>-->
-        <!--                            </div>-->
-        <!--                            <div class="product_one pull-left">-->
-        <!--                                <a href=""><img src="./images/1234.jpg" alt=""/></a>-->
-        <!--                                <p><a href="">text</p></a>-->
-        <!--                            </div>-->
-        <!--                            <div class="product_one pull-left">-->
-        <!--                                <a href=""><img src="./images/1234.jpg" alt=""/></a>-->
-        <!--                                <p><a href="">text</p></a>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                        <div class="product_img clearfix" style="display: none">-->
-        <!--                            <div class="product_one pull-left">-->
-        <!--                                <a href=""><img src="./images/1234.jpg" alt=""/></a>-->
-        <!--                                <p><a href="">text</p></a>-->
-        <!--                            </div>-->
-        <!--                            <div class="product_one pull-left">-->
-        <!--                                <a href=""><img src="./images/2345.jpg" alt=""/></a>-->
-        <!--                                <p><a href="">text</p></a>-->
-        <!--                            </div>-->
-        <!--                            <div class="product_one pull-left">-->
-        <!--                                <a href=""><img src="./images/1234.jpg" alt=""/></a>-->
-        <!--                                <p><a href="">text</p></a>-->
-        <!--                            </div>-->
-        <!--                            <div class="product_one pull-left">-->
-        <!--                                <a href=""><img src="./images/1234.jpg" alt=""/></a>-->
-        <!--                                <p><a href="">text</p></a>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                        <div class="product_img clearfix" style="display: none">-->
-        <!--                            <div class="product_one pull-left">-->
-        <!--                                <a href=""><img src="./images/1234.jpg" alt=""/></a>-->
-        <!--                                <p><a href="">text</p></a>-->
-        <!--                            </div>-->
-        <!--                            <div class="product_one pull-left">-->
-        <!--                                <a href=""><img src="./images/2345.jpg" alt=""/></a>-->
-        <!--                                <p><a href="">text</p></a>-->
-        <!--                            </div>-->
-        <!--                            <div class="product_one pull-left">-->
-        <!--                                <a href=""><img src="./images/3456.jpg" alt=""/></a>-->
-        <!--                                <p><a href="">text</p></a>-->
-        <!--                            </div>-->
-        <!--                            <div class="product_one pull-left">-->
-        <!--                                <a href=""><img src="./images/1234.jpg" alt=""/></a>-->
-        <!--                                <p><a href="">text</p></a>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
     </div>
 </div>
 <script>
@@ -253,24 +172,4 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
     });
 </script>
 
-<!--<div class="col-mb-12 col-8" id="main" role="main">-->
-<!--	--><?php //while($this->next()): ?>
-<!--        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">-->
-<!--			<h2 class="post-title" itemprop="name headline"><a itemtype="url" href="--><?php //$this->permalink() ?><!--">--><?php //$this->title() ?><!--</a></h2>-->
-<!--			<ul class="post-meta">-->
-<!--				<li itemprop="author" itemscope itemtype="http://schema.org/Person">--><?php //_e('作者: '); ?><!--<a itemprop="name" href="--><?php //$this->author->permalink(); ?><!--" rel="author">--><?php //$this->author(); ?><!--</a></li>-->
-<!--				<li>--><?php //_e('时间: '); ?><!--<time datetime="--><?php //$this->date('c'); ?><!--" itemprop="datePublished">--><?php //$this->date('F j, Y'); ?><!--</time></li>-->
-<!--				<li>--><?php //_e('分类: '); ?><!----><?php //$this->category(','); ?><!--</li>-->
-<!--				<li itemprop="interactionCount"><a itemprop="discussionUrl" href="--><?php //$this->permalink() ?><!--#comments">--><?php //$this->commentsNum('评论', '1 条评论', '%d 条评论'); ?><!--</a></li>-->
-<!--			</ul>-->
-<!--            <div class="post-content" itemprop="articleBody">-->
-<!--    			--><?php //$this->content('- 阅读剩余部分 -'); ?>
-<!--            </div>-->
-<!--        </article>-->
-<!--	--><?php //endwhile; ?>
-<!---->
-<!--    --><?php //$this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
-<!--</div>-->
-
-<?php //$this->need('sidebar.php'); ?>
 <?php $this->need('footer.php'); ?>
