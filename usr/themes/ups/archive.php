@@ -103,9 +103,9 @@
                                 </ul>
                             </li>
                             <li class="sec_list">
-                                <a class="sec_list_title" href="/index.php/category/pk/">佩科UPS</a>
+                                <a class="sec_list_title" href="/index.php/category/pk/">索朗特UPS</a>
                                 <ul class="list-unstyled">
-                                    <li><a href="/index.php/category/pk/">佩科UPS</a></li>
+                                    <li><a href="/index.php/category/pk/">索朗特UPS</a></li>
                                 </ul>
                             </li>
                             <li class="sec_list">
@@ -133,9 +133,9 @@
                                 </ul>
                             </li>
                             <li class="sec_list">
-                                <a class="sec_list_title" href="/index.php/category/pkxdc/">佩科蓄电池</a>
+                                <a class="sec_list_title" href="/index.php/category/pkxdc/">索朗特蓄电池</a>
                                 <ul class="list-unstyled">
-                                    <li><a href="/index.php/category/pkxdc/">佩科蓄电池</a></li>
+                                    <li><a href="/index.php/category/pkxdc/">索朗特蓄电池</a></li>
                                 </ul>
                             </li>
                             <li class="sec_list">
