@@ -67,7 +67,8 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         <?php $this->widget('Widget_Contents_Page_List', 'slug=intro')->to($pages); ?>
                         <?php while($pages->next()): ?>
                         <?php if($pages->slug =="intro"):?>
-                        <img class=" pull-left " src="<?php $this->options->themeUrl(); ?>images/contact_us.jpg" alt=""/>
+
+                        <a href="/index.php/intro.html"><img class=" pull-left " src="<?php $this->options->themeUrl(); ?>images/company.jpg" alt=""/></a>
                         <div class="introduce"><?php echo $pages->excerpt(165,"..."); ?></div>
                         <?php endif;?>
                         <?php endwhile; ?>
