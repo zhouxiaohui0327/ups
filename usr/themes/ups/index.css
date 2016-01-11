@@ -74,6 +74,9 @@ header{
     line-height: 45px;
     color: #fff;
 }
+.pogoSlider--navBottom .pogoSlider-nav{
+    bottom: 30px;
+}
 .inner_list{
     position:absolute;
     top:45px;

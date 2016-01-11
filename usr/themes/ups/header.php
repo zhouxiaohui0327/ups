@@ -101,7 +101,7 @@
     <div class="dowebok hidden-xs">         <!--大图轮播-->
         <div class="pogoSlider" id="dowebok" style="height: 390px">
             <div class="pogoSlider-slide" style="background:url(<?php $this->options->themeUrl(); ?>images/banner2.jpg)50% 0 repeat-x;"></div>
-            <div class="pogoSlider-slide" style="background:url(<?php $this->options->themeUrl(); ?>images/banner3.jpg)50% 0 repeat-x;"></div>
+            <div class="pogoSlider-slide" style="background:url(<?php $this->options->themeUrl(); ?>images/banner4.jpg)50% 0 repeat-x;"></div>
             <div class="pogoSlider-slide" style="background:url(<?php $this->options->themeUrl(); ?>images/banner1.jpg)50% 0 repeat-x;"></div>
         </div>
     </div>
