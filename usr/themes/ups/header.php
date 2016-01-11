@@ -100,53 +100,15 @@
     </div>
     <div class="dowebok hidden-xs">         <!--大图轮播-->
         <div class="pogoSlider" id="dowebok" style="height: 390px">
-            <div class="pogoSlider-slide" style="background:url(<?php $this->options->themeUrl(); ?>images/lunbo1.jpg)50% 0 repeat-x;"></div>
-            <div class="pogoSlider-slide" style="background:url(<?php $this->options->themeUrl(); ?>images/lunbo2.jpg)50% 0 repeat-x;"></div>
-            <div class="pogoSlider-slide" style="background:url(<?php $this->options->themeUrl(); ?>images//lunbo3.jpg)50% 0 repeat-x;"></div>
+            <div class="pogoSlider-slide" style="background:url(<?php $this->options->themeUrl(); ?>images/banner2.jpg)50% 0 repeat-x;"></div>
+            <div class="pogoSlider-slide" style="background:url(<?php $this->options->themeUrl(); ?>images/banner3.jpg)50% 0 repeat-x;"></div>
+            <div class="pogoSlider-slide" style="background:url(<?php $this->options->themeUrl(); ?>images/banner1.jpg)50% 0 repeat-x;"></div>
         </div>
     </div>
 </header>
 
 
 
-
-
-<!--<header id="header" class="clearfix">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="site-name col-mb-12 col-9">-->
-<!--                <a id="logo" href="--><?php //$this->options->siteUrl(); ?><!--">-->
-<!--                    --><?php //if ($this->options->logoUrl): ?>
-<!--                    <img src="--><?php //$this->options->logoUrl() ?><!--" alt="--><?php //$this->options->title() ?><!--" />-->
-<!--                    --><?php //endif; ?>
-<!--                    --><?php //$this->options->title() ?>
-<!--                </a>-->
-<!--        	    <p class="description">--><?php //$this->options->description() ?><!--</p>-->
-<!--            </div>-->
-<!--            <div class="site-search col-3 kit-hidden-tb">-->
-<!--                <form id="search" method="post" action="./" role="search">-->
-<!--                    <label for="s" class="sr-only">--><?php //_e('搜索关键字'); ?><!--</label>-->
-<!--                    <input type="text" name="s" class="text" placeholder="--><?php //_e('输入关键字搜索'); ?><!--" />-->
-<!--                    <button type="submit" class="submit">--><?php //_e('搜索'); ?><!--</button>-->
-<!--                </form>-->
-<!--            </div>-->
-<!--            <div class="col-mb-12">-->
-<!--                <nav id="nav-menu" class="clearfix" role="navigation">-->
-<!--                    <a--><?php //if($this->is('index')): ?><!-- class="current"--><?php //endif; ?><!-- href="--><?php //$this->options->siteUrl(); ?><!--">--><?php //_e('首页'); ?><!--</a>-->
-<!--                    --><?php //$this->widget('Widget_Contents_Page_List')->to($pages); ?>
-<!--                    --><?php //while($pages->next()): ?>
-<!--                    <a--><?php //if($this->is('page', $pages->slug)): ?><!-- class="current"--><?php //endif; ?><!-- href="--><?php //$pages->permalink(); ?><!--" title="--><?php //$pages->title(); ?><!--">--><?php //$pages->title(); ?><!--</a>-->
-<!--                    --><?php //endwhile; ?>
-<!--                </nav>-->
-<!--            </div>-->
-<!--        </div>
-<!--    </div>-->
-<!--</header>-->
-
-
-<!--<div id="body">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
 
     
     
