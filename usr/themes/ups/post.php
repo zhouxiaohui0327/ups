@@ -32,12 +32,12 @@
                             <li class="sec_list">
                                 <a class="sec_list_title" href="/index.php/category/XDC/">蓄电池</a>
                                 <ul class="list-unstyled">
+                                    <li><a href="/index.php/category/SLT/">索朗特</a></li>
+                                    <li><a href="/index.php/category/HZ/">海志</a></li>
                                     <li><a href="/index.php/category/GNB/">GNB</a></li>
                                     <li><a href="/index.php/category/SYSX/">沈阳松下</a></li>
                                     <li><a href="/index.php/category/DLS/">大力神</a></li>
-                                    <li><a href="/index.php/category/HZ/">海志</a></li>
                                     <li><a href="/index.php/category/FF/">非凡</a></li>
-                                    <li><a href="/index.php/category/SLT/">索朗特</a></li>
                                 </ul>
                             </li>
                             <li class="sec_list">
@@ -49,20 +49,20 @@
                             <li class="sec_list">
                                 <a class="sec_list_title" href="/index.php/category/UPS/">UPS不间断电源</a>
                                 <ul class="list-unstyled">
+                                    <li><a href="/index.php/category/SLT-UPS/">索朗特UPS</a></li>
+                                    <li><a href="/index.php/category/AMS-UPS/">艾默生UPS</a></li>
                                     <li><a href="/index.php/category/TG/">泰高UPS</a></li>
                                     <li><a href="/index.php/category/YD/">伊顿</a></li>
                                     <li><a href="/index.php/category/XK/">先控</a></li>
-                                    <li><a href="/index.php/category/SLT-UPS/">索朗特UPS</a></li>
-                                    <li><a href="/index.php/category/AMS-UPS/">艾默生UPS</a></li>
                                 </ul>
                             </li>
                             <li class="sec_list">
                                 <a class="sec_list_title" href="/index.php/category/JFKT/">机房精密空调</a>
                                 <ul class="list-unstyled">
-                                    <li><a href="/index.php/category/FNKS/">菲尼克斯</a></li>
-                                    <li><a href="/index.php/category/STUIZ/">STUIZ</a></li>
                                     <li><a href="/index.php/category/KLMT/">克莱门特</a></li>
                                     <li><a href="/index.php/category/AMS/">艾默生</a></li>
+                                    <li><a href="/index.php/category/FNKS/">菲尼克斯</a></li>
+                                    <li><a href="/index.php/category/STUIZ/">STUIZ</a></li>
                                 </ul>
                             </li>
                             <li class="sec_list">
