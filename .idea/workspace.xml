@@ -114,20 +114,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="post.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/usr/themes/ups/post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="2907">
-              <caret line="140" column="51" selection-start-line="140" selection-start-column="51" selection-end-line="140" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.4231499" vertical-offset="1221" max-vertical-offset="2337">
+              <caret line="76" column="99" selection-start-line="76" selection-start-column="99" selection-end-line="76" selection-end-column="99" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usr/themes/ups/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.7685009" vertical-offset="474" max-vertical-offset="2204">
+            <state vertical-scroll-proportion="-33.285713" vertical-offset="474" max-vertical-offset="2204">
               <caret line="74" column="58" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
               <folding />
             </state>
@@ -145,7 +145,6 @@
         <option value="$PROJECT_DIR$/usr/themes/ups/functions.php" />
         <option value="$PROJECT_DIR$/usr/themes/ups/post.css" />
         <option value="$PROJECT_DIR$/usr/themes/ups/archive.css" />
-        <option value="$PROJECT_DIR$/usr/themes/ups/post.php" />
         <option value="$PROJECT_DIR$/usr/themes/ups/company_info.php" />
         <option value="$PROJECT_DIR$/usr/themes/ups/page.php" />
         <option value="$PROJECT_DIR$/usr/themes/ups/index.php" />
@@ -153,6 +152,7 @@
         <option value="$PROJECT_DIR$/usr/themes/ups/index.css" />
         <option value="$PROJECT_DIR$/usr/themes/ups/archive.php" />
         <option value="$PROJECT_DIR$/usr/themes/ups/header.php" />
+        <option value="$PROJECT_DIR$/usr/themes/ups/post.php" />
       </list>
     </option>
   </component>
@@ -742,14 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usr/themes/ups/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="2907">
-          <caret line="140" column="51" selection-start-line="140" selection-start-column="51" selection-end-line="140" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usr/themes/ups/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="836" max-vertical-offset="1748">
@@ -809,8 +801,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/usr/themes/ups/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7685009" vertical-offset="474" max-vertical-offset="2204">
+        <state vertical-scroll-proportion="-33.285713" vertical-offset="474" max-vertical-offset="2204">
           <caret line="74" column="58" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usr/themes/ups/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4231499" vertical-offset="1221" max-vertical-offset="2337">
+          <caret line="76" column="99" selection-start-line="76" selection-start-column="99" selection-end-line="76" selection-end-column="99" />
           <folding />
         </state>
       </provider>
