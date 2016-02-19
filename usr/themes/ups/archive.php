@@ -65,84 +65,58 @@
                             <li><a href="/index.php/category/company/">公司新闻</a></li>
                             <li><a class="hover1" href="/index.php/category/market/">市场动态</a></li>
 
-                        <?php elseif($this->_pageRow['slug'] == "product"||$this->_pageRow['slug']=="xdc"||$this->_pageRow['slug']=="EPS"||$this->_pageRow['slug']=="EPS"||$this->_pageRow['slug']=="xcp"||$this->_pageRow['slug']=="UPS"||$this->_pageRow['slug']=="jf"||$this->_pageRow['slug']=="fdj"||$this->_pageRow['slug']=="lgl"||$this->_pageRow['slug']=="pkxdc"||$this->_pageRow['slug']=="CITEC"||$this->_pageRow['slug']=="yg"||$this->_pageRow['slug']=="gnb"||$this->_pageRow['slug']=="pk"
-                            ||$this->_pageRow['slug']=="sysx"||$this->_pageRow['slug']=="tq"||$this->_pageRow['slug']=="dls"||$this->_pageRow['slug']=="peak"||$this->_pageRow['slug']=="mlrl"||$this->_pageRow['slug']=="xmz"||$this->_pageRow['slug']=="klrd"||$this->_pageRow['slug']=="yd"||$this->_pageRow['slug']=="st"||$this->_pageRow['slug']=="fnks"||$this->_pageRow['slug']=="STUIZ"||$this->_pageRow['slug']=="aex"||$this->_pageRow['slug']=="mdbt"||$this->_pageRow['slug']=="bc"||$this->_pageRow['slug']=="qtbl"):?>
+                        <?php elseif($this->_pageRow['slug'] == "product"||$this->_pageRow['slug']=="XDC"||$this->_pageRow['slug']=="EPS"||$this->_pageRow['slug']=="UPS"||$this->_pageRow['slug']=="JFKT"||$this->_pageRow['slug']=="FDJ"||$this->_pageRow['slug']=="JFGC"||$this->_pageRow['slug']=="GNB"||$this->_pageRow['slug']=="SYSX"||$this->_pageRow['slug']=="DLS"||$this->_pageRow['slug']=="HZ"||$this->_pageRow['slug']=="FF"||$this->_pageRow['slug']=="SLT"||$this->_pageRow['slug']=="GJ"
+                            ||$this->_pageRow['slug']=="TG"||$this->_pageRow['slug']=="YD"||$this->_pageRow['slug']=="XK"||$this->_pageRow['slug']=="SLT-UPS"||$this->_pageRow['slug']=="AMS-UPS"||$this->_pageRow['slug']=="FNKS"||$this->_pageRow['slug']=="STUIZ"||$this->_pageRow['slug']=="KLMT"||$this->_pageRow['slug']=="AMS"||$this->_pageRow['slug']=="mdbt"||$this->_pageRow['slug']=="bc"||$this->_pageRow['slug']=="KMS"):?>
                             <li class="sec_list">
-                                <a class="sec_list_title" href="/index.php/category/xdc/">蓄电池</a>
+                                <a class="sec_list_title" href="/index.php/category/XDC/">蓄电池</a>
                                 <ul class="list-unstyled">
-                                    <li><a href="/index.php/category/yg/">阳光</a></li>
-                                    <li><a href="/index.php/category/xdc/">蓄电池</a></li>
-                                    <li><a href="/index.php/category/gnb/">GNB</a></li>
-                                    <li><a href="/index.php/category/sysx/">沈阳松下</a></li>
-                                    <li><a href="/index.php/category/tq/">汤浅</a></li>
-                                    <li><a href="/index.php/category/dls/">大力神</a></li>
-                                    <li><a href="/index.php/category/peak/">PEAK POWER</a></li>
+                                    <li><a href="/index.php/category/GNB/">GNB</a></li>
+                                    <li><a href="/index.php/category/SYSX/">沈阳松下</a></li>
+                                    <li><a href="/index.php/category/DLS/">大力神</a></li>
+                                    <li><a href="/index.php/category/HZ/">海志</a></li>
+                                    <li><a href="/index.php/category/FF/">非凡</a></li>
+                                    <li><a href="/index.php/category/SLT/">索朗特</a></li>
                                 </ul>
                             </li>
                             <li class="sec_list">
                                 <a class="sec_list_title" href="/index.php/category/EPS/">EPS紧急电源</a>
                                 <ul class="list-unstyled">
-                                    <li><a href="/index.php/category/EPS/">EPS紧急电源</a></li>
-                                </ul>
-                            </li>
-                            <li class="sec_list">
-                                <a class="sec_list_title" href="/index.php/category/xcp/">新产品PEAK POWER</a>
-                                <ul class="list-unstyled">
-                                    <li><a  href="/index.php/category/xcp/">新产品PEAK POWER</a></li>
+                                    <li><a href="/index.php/category/GJ/">冠军</a></li>
                                 </ul>
                             </li>
                             <li class="sec_list">
                                 <a class="sec_list_title" href="/index.php/category/UPS/">UPS不间断电源</a>
                                 <ul class="list-unstyled">
-                                    <li><a href="/index.php/category/mlrl/">梅兰日兰</a></li>
-                                    <li><a href="/index.php/category/xmz/">西门子</a></li>
-                                    <li><a href="/index.php/category/klrd/">克劳瑞德</a></li>
-                                    <li><a href="/index.php/category/UPS/">UPS不间断电源</a></li>
-                                    <li><a href="/index.php/category/yd/">伊顿</a></li>
-                                    <li><a href="/index.php/category/st/">山特</a></li>
+                                    <li><a href="/index.php/category/TG/">泰高UPS</a></li>
+                                    <li><a href="/index.php/category/YD/">伊顿</a></li>
+                                    <li><a href="/index.php/category/XK/">先控</a></li>
+                                    <li><a href="/index.php/category/SLT-UPS/">索兰特UPS</a></li>
+                                    <li><a href="/index.php/category/AMS-UPS/">艾默生UPS</a></li>
                                 </ul>
                             </li>
-                            <li class="sec_list">
-                                <a class="sec_list_title" href="/index.php/category/pk/">索朗特UPS</a>
+                          <li class="sec_list">
+                                <a class="sec_list_title" href="/index.php/category/JFKT/">机房精密空调</a>
                                 <ul class="list-unstyled">
-                                    <li><a href="/index.php/category/pk/">索朗特UPS</a></li>
+                                    <li><a href="/index.php/category/FNKS/">菲尼克斯</a></li>
+                                    <li><a href="/index.php/category/STUIZ/">STUIZ</a></li>
+                                    <li><a href="/index.php/category/KLMT/">克莱门特</a></li>
+                                    <li><a href="/index.php/category/AMS/">艾默生</a></li>
                                 </ul>
                             </li>
                             <li class="sec_list">
-                                <a class="sec_list_title" href="/index.php/category/jf/">机房精密空调</a>
-                                <ul class="list-unstyled">
-                                    <li><a href="/index.php/category/fnks/">菲尼克斯</a></li>
-                                    <li><a href="/index.php/category/STUIZ/">梅兰日兰STUIZ</a></li>
-                                    <li><a href="/index.php/category/aex/">阿尔西</a></li>
-                                    <li><a href="/index.php/category/jf/">机房精密空调</a></li>
-                                </ul>
-                            </li>
-                            <li class="sec_list">
-                                <a class="sec_list_title" href="/index.php/category/fdj/">发电机</a>
+                                <a class="sec_list_title" href="/index.php/category/FDJ/">发电机</a>
                                 <ul class="list-unstyled">
                                     <li><a href="/index.php/category/mdbt/">闽东本田</a></li>
                                     <li><a href="/index.php/category/bc/">奔驰</a></li>
-                                    <li><a href="/index.php/category/qtbl/">恰特彼勒</a></li>
-                                    <li><a href="/index.php/category/fdj/">发电机</a></li>
+                                    <li><a href="/index.php/category/KMS/">康明斯</a></li>
                                 </ul>
                             </li>
+
                             <li class="sec_list">
-                                <a class="sec_list_title" href="/index.php/category/lgl/">罗格朗UPS</a>
-                                <ul class="list-unstyled">
-                                    <li><a href="/index.php/category/lgl/">罗格朗UPS</a></li>
-                                </ul>
-                            </li>
-                            <li class="sec_list">
-                                <a class="sec_list_title" href="/index.php/category/pkxdc/">索朗特蓄电池</a>
-                                <ul class="list-unstyled">
-                                    <li><a href="/index.php/category/pkxdc/">索朗特蓄电池</a></li>
-                                </ul>
-                            </li>
-                            <li class="sec_list">
-                                <a class="sec_list_title" href="/index.php/category/CITEC/">CITEC精密空调</a>
-                                <ul class="list-unstyled">
-                                    <li><a href="/index.php/category/CITEC/">CITEC精密空调</a></li>
-                                </ul>
+                                <a class="sec_list_title" href="/index.php/category/JFGC/">机房工程</a>
+<!--                                <ul class="list-unstyled">-->
+<!--                                    <li><a href="/index.php/category/CITEC/">CITEC精密空调</a></li>-->
+<!--                                </ul>-->
                             </li>
 
                         <?php elseif($this->category == "case"):?>

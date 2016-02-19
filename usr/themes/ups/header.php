@@ -67,16 +67,12 @@
                 <li class="title_box">
                     <a class="title" href="/index.php/category/product/"><?php _e('产品展示'); ?></a>
                     <ul class="inner_list list-unstyled">
-                        <li><a href="/index.php/category/xdc/">蓄电池</a></li>
+                        <li><a href="/index.php/category/XDC/">蓄电池</a></li>
                         <li><a href="/index.php/category/EPS/">EPS应急电源</a></li>
-                        <li><a href="/index.php/category/xcp/">新产品PEAK POWER</a></li>
                         <li><a href="/index.php/category/UPS/">UPS不间断电源</a></li>
-                        <li><a href="/index.php/category/pk/">佩科UPS</a></li>
-                        <li><a href="/index.php/category/jf/">机房精密空调</a></li>
-                        <li><a href="/index.php/category/fdj/">发电机</a></li>
-                        <li><a href="/index.php/category/lgl/">罗格朗UPS</a></li>
-                        <li><a href="/index.php/category/pkxdc/">佩科蓄电池</a></li>
-                        <li><a href="/index.php/category/CITEC/">CITEC精密空调</a></li>
+                        <li><a href="/index.php/category/JFKT/">机房精密空调</a></li>
+                        <li><a href="/index.php/category/FDJ/">发电机</a></li>
+                        <li><a href="/index.php/category/JFGC/">机房工程</a></li>
                     </ul>
                 </li>
                 <li class="title_box">
