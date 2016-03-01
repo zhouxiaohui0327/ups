@@ -52,9 +52,7 @@
                     <p class="title"><span class="here">您的位置：</span><span class="here_nav"><a href="<?php $this->options->siteUrl(); ?>"><?php _e('首页');?></a> > <?php $this->title();?></span></p>
                 </div>
                 <div class="details_content">
-<!--                    <div class="post_head">-->
-<!--                        <h3 class="post_title">如何用计算机串口超级终端配置AP9617网络管理卡</h3>-->
-<!--                    </div>-->
+
                     <div class="post_content">
                         <?php $this->content(); ?>
 <!--                        <img src="./images/12345.jpg" alt=""/>-->
@@ -72,15 +70,5 @@
         </div>
     </div>
 </div>
-<!--<div class="col-mb-12 col-8" id="main" role="main">-->
-<!--    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">-->
-<!--        <h1 class="post-title" itemprop="name headline"><a itemtype="url" href="--><?php //$this->permalink() ?><!--">--><?php //$this->title() ?><!--</a></h1>-->
-<!--        <div class="post-content" itemprop="articleBody">-->
-<!--            --><?php //$this->content(); ?>
-<!--        </div>-->
-<!--    </article>-->
-<!--    --><?php //$this->need('comments.php'); ?>
-<!--</div>-->
 
-<?php //$this->need('sidebar.php'); ?>
 <?php $this->need('footer.php'); ?>

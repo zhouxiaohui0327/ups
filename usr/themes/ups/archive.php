@@ -66,7 +66,7 @@
                             <li><a class="hover1" href="/index.php/category/market/">市场动态</a></li>
 
                         <?php elseif($this->_pageRow['slug'] == "product"||$this->_pageRow['slug']=="XDC"||$this->_pageRow['slug']=="EPS"||$this->_pageRow['slug']=="UPS"||$this->_pageRow['slug']=="JFKT"||$this->_pageRow['slug']=="FDJ"||$this->_pageRow['slug']=="JFGC"||$this->_pageRow['slug']=="GNB"||$this->_pageRow['slug']=="SYSX"||$this->_pageRow['slug']=="DLS"||$this->_pageRow['slug']=="HZ"||$this->_pageRow['slug']=="FF"||$this->_pageRow['slug']=="SLT"||$this->_pageRow['slug']=="GJ"
-                            ||$this->_pageRow['slug']=="TG"||$this->_pageRow['slug']=="YD"||$this->_pageRow['slug']=="XK"||$this->_pageRow['slug']=="SLT-UPS"||$this->_pageRow['slug']=="AMS-UPS"||$this->_pageRow['slug']=="FNKS"||$this->_pageRow['slug']=="STUIZ"||$this->_pageRow['slug']=="KLMT"||$this->_pageRow['slug']=="AMS"||$this->_pageRow['slug']=="mdbt"||$this->_pageRow['slug']=="bc"||$this->_pageRow['slug']=="KMS"):?>
+                            ||$this->_pageRow['slug']=="TG"||$this->_pageRow['slug']=="YD"||$this->_pageRow['slug']=="XK"||$this->_pageRow['slug']=="SLT-UPS"||$this->_pageRow['slug']=="AMS-UPS"||$this->_pageRow['slug']=="FNKS"||$this->_pageRow['slug']=="STUIZ"||$this->_pageRow['slug']=="KLMT"||$this->_pageRow['slug']=="AMS"||$this->_pageRow['slug']=="mdbt"||$this->_pageRow['slug']=="bc"||$this->_pageRow['slug']=="KMS"||$this->_pageRow['slug']=="lglang"):?>
                             <li class="sec_list">
                                 <a class="sec_list_title" href="/index.php/category/XDC/">蓄电池</a>
                                 <ul class="list-unstyled">
@@ -89,6 +89,7 @@
                                 <ul class="list-unstyled">
                                     <li><a href="/index.php/category/SLT-UPS/">索朗特UPS</a></li>
                                     <li><a href="/index.php/category/AMS-UPS/">艾默生UPS</a></li>
+                                    <li><a href="/index.php/category/lglang/">罗格朗UPS</a></li>
                                     <li><a href="/index.php/category/TG/">泰高UPS</a></li>
                                     <li><a href="/index.php/category/YD/">伊顿</a></li>
                                     <li><a href="/index.php/category/XK/">先控</a></li>
@@ -227,36 +228,5 @@
 
             })
 </script>
-<!--    <div class="col-mb-12 col-8" id="main" role="main">-->
-<!--        <h3 class="archive-title">--><?php //$this->archiveTitle(array(
-//            'category'  =>  _t('分类 %s 下的文章'),
-//            'search'    =>  _t('包含关键字 %s 的文章'),
-//            'tag'       =>  _t('标签 %s 下的文章'),
-//            'author'    =>  _t('%s 发布的文章')
-//        ), '', ''); ?><!--</h3>-->
-<!--        --><?php //if ($this->have()): ?>
-<!--    	--><?php //while($this->next()): ?>
-<!--            <article class="post" itemscope itemtype="http://schema.org/BlogPosting">-->
-<!--    			<h2 class="post-title" itemprop="name headline"><a itemtype="url" href="--><?php //$this->permalink() ?><!--">--><?php //$this->title() ?><!--</a></h2>-->
-<!--    			<ul class="post-meta">-->
-<!--    				<li itemprop="author" itemscope itemtype="http://schema.org/Person">--><?php //_e('作者: '); ?><!--<a itemprop="name" href="--><?php //$this->author->permalink(); ?><!--" rel="author">--><?php //$this->author(); ?><!--</a></li>-->
-<!--    				<li>--><?php //_e('时间: '); ?><!--<time datetime="--><?php //$this->date('c'); ?><!--" itemprop="datePublished">--><?php //$this->date('F j, Y'); ?><!--</time></li>-->
-<!--    				<li>--><?php //_e('分类: '); ?><!----><?php //$this->category(','); ?><!--</li>-->
-<!--                    <li itemprop="interactionCount"><a href="--><?php //$this->permalink() ?><!--#comments">--><?php //$this->commentsNum('评论', '1 条评论', '%d 条评论'); ?><!--</a></li>-->
-<!--    			</ul>-->
-<!--                <div class="post-content" itemprop="articleBody">-->
-<!--        			--><?php //$this->content('- 阅读剩余部分 -'); ?>
-<!--                </div>-->
-<!--    		</article>-->
-<!--    	--><?php //endwhile; ?>
-<!--        --><?php //else: ?>
-<!--            <article class="post">-->
-<!--                <h2 class="post-title">--><?php //_e('没有找到内容'); ?><!--</h2>-->
-<!--            </article>-->
-<!--        --><?php //endif; ?>
-<!---->
-<!--        --><?php //$this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
-<!---->
-<!---->
-<!--	--><?php //$this->need('sidebar.php'); ?>
+
 	<?php $this->need('footer.php'); ?>
