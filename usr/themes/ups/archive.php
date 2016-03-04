@@ -49,21 +49,21 @@
                 <div class="details_content"  style="padding:0;">
                     <ul class="list-unstyled">
                         <?php if($this->_pageRow['slug']=="news"):?>
-                            <li><a href="/index.php/category/trade/">行业新闻</a></li>
-                            <li><a href="/index.php/category/company/">公司新闻</a></li>
-                            <li><a href="/index.php/category/market/">市场动态</a></li>
+                            <li><a href="/index.php/category/HYXW">行业新闻</a></li>
+                            <li><a href="/index.php/category/GSXW/">公司新闻</a></li>
+                            <li><a href="/index.php/category/SCDT/">市场动态</a></li>
                         <?php elseif($this->_pageRow['slug']=="trade"):?>
-                                <li><a class="hover1" href="/index.php/category/trade/">行业新闻</a></li>
-                                <li><a href="/index.php/category/company/">公司新闻</a></li>
-                                <li><a href="/index.php/category/market/">市场动态</a></li>
+                                <li><a class="hover1" href="/index.php/category/HYXW/">行业新闻</a></li>
+                                <li><a href="/index.php/category/GSXW/">公司新闻</a></li>
+                                <li><a href="/index.php/category/SCDT/">市场动态</a></li>
                         <?php elseif($this->_pageRow['slug']=="company"):?>
-                            <li><a href="/index.php/category/trade/">行业新闻</a></li>
-                            <li><a class="hover1" href="/index.php/category/company/">公司新闻</a></li>
-                            <li><a href="/index.php/category/market/">市场动态</a></li>
+                            <li><a href="/index.php/category/HYXW/">行业新闻</a></li>
+                            <li><a class="hover1" href="/index.php/category/GSXW/">公司新闻</a></li>
+                            <li><a href="/index.php/category/SCDT/">市场动态</a></li>
                         <?php elseif($this->_pageRow['slug']=="market"):?>
-                            <li><a href="/index.php/category/trade/">行业新闻</a></li>
-                            <li><a href="/index.php/category/company/">公司新闻</a></li>
-                            <li><a class="hover1" href="/index.php/category/market/">市场动态</a></li>
+                            <li><a href="/index.php/category/HYXW/">行业新闻</a></li>
+                            <li><a href="/index.php/category/GSXW/">公司新闻</a></li>
+                            <li><a class="hover1" href="/index.php/category/SCDT/">市场动态</a></li>
 
                         <?php elseif($this->_pageRow['slug'] == "product"||$this->_pageRow['slug']=="XDC"||$this->_pageRow['slug']=="EPS"||$this->_pageRow['slug']=="UPS"||$this->_pageRow['slug']=="JFKT"||$this->_pageRow['slug']=="FDJ"||$this->_pageRow['slug']=="JFGC"||$this->_pageRow['slug']=="GNB"||$this->_pageRow['slug']=="SYSX"||$this->_pageRow['slug']=="DLS"||$this->_pageRow['slug']=="HZ"||$this->_pageRow['slug']=="FF"||$this->_pageRow['slug']=="SLT"||$this->_pageRow['slug']=="GJ"
                             ||$this->_pageRow['slug']=="TG"||$this->_pageRow['slug']=="YD"||$this->_pageRow['slug']=="XK"||$this->_pageRow['slug']=="SLT-UPS"||$this->_pageRow['slug']=="AMS-UPS"||$this->_pageRow['slug']=="FNKS"||$this->_pageRow['slug']=="STUIZ"||$this->_pageRow['slug']=="KLMT"||$this->_pageRow['slug']=="AMS"||$this->_pageRow['slug']=="mdbt"||$this->_pageRow['slug']=="bc"||$this->_pageRow['slug']=="KMS"||$this->_pageRow['slug']=="lglang"):?>

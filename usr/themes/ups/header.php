@@ -78,8 +78,8 @@
                 <li class="title_box">
                     <a class="title" href="/index.php/category/news/"><?php _e('新闻动态'); ?></a>
                     <ul class="inner_list list-unstyled">
-                        <li><a href="/index.php/category/company/">公司新闻</a></li>
-                        <li><a href="/index.php/category/trade/">行业新闻</a></li>
+                        <li><a href="/index.php/category/GSXW/">公司新闻</a></li>
+                        <li><a href="/index.php/category/HYXW/">行业新闻</a></li>
                     </ul>
                 </li>
                 <li class="title_box"><a class="title" href="/index.php/category/case/"><?php _e('成功案列'); ?></a></li>
