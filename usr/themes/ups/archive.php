@@ -52,15 +52,15 @@
                             <li><a href="/index.php/category/HYXW">行业新闻</a></li>
                             <li><a href="/index.php/category/GSXW/">公司新闻</a></li>
                             <li><a href="/index.php/category/SCDT/">市场动态</a></li>
-                        <?php elseif($this->_pageRow['slug']=="trade"):?>
+                        <?php elseif($this->_pageRow['slug']=="HYXW"):?>
                                 <li><a class="hover1" href="/index.php/category/HYXW/">行业新闻</a></li>
                                 <li><a href="/index.php/category/GSXW/">公司新闻</a></li>
                                 <li><a href="/index.php/category/SCDT/">市场动态</a></li>
-                        <?php elseif($this->_pageRow['slug']=="company"):?>
+                        <?php elseif($this->_pageRow['slug']=="GSXW"):?>
                             <li><a href="/index.php/category/HYXW/">行业新闻</a></li>
                             <li><a class="hover1" href="/index.php/category/GSXW/">公司新闻</a></li>
                             <li><a href="/index.php/category/SCDT/">市场动态</a></li>
-                        <?php elseif($this->_pageRow['slug']=="market"):?>
+                        <?php elseif($this->_pageRow['slug']=="SCDT"):?>
                             <li><a href="/index.php/category/HYXW/">行业新闻</a></li>
                             <li><a href="/index.php/category/GSXW/">公司新闻</a></li>
                             <li><a class="hover1" href="/index.php/category/SCDT/">市场动态</a></li>
